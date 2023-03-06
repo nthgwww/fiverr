@@ -1,5 +1,33 @@
 .slide{
-    .container{
-        
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+    .slide-heading{
+        margin-bottom: 15px;
+        margin-top: 20px;
+        display: flex;  
+        align-items: center;
+        width: 100%;
+        // margin-left: 60px;   
+        color: #404145;    
     }
+
+    .container{
+        padding: 32px 32px 64px;
+        color: white;
+        width: 1400px;
+
+        .carousel-prev, .carousel-next{
+            width: 50px;
+            height: 50px;
+            background-color: lightgray;
+            border-radius: 50%;
+            position: absolute;
+            top: 0; 
+            bottom: 0;
+            margin: auto;
+        }
+    }
+    
 }
