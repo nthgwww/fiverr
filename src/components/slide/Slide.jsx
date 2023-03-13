@@ -7,8 +7,7 @@ const Slide = ({children, slidesToShow, arrowsScroll}) => {
   return (
     <div className="slide">
       <div className="container">
-      <h1 className="slide-heading">Popular professional services</h1>
-
+      {/* <h1 className="slide-heading">Popular professional services</h1> */}
         <Slider slidesToShow={slidesToShow} arrowsScroll={arrowsScroll}>
           {/* {cards.map((card) => (
             <CatCard

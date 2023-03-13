@@ -46,7 +46,7 @@ const Navbar = () => {
           {currentUser && (
             <div className="user" onClick={() => setOpen(!open)}>
               <img
-                src="https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/325424260_569981544672478_8142361025772127812_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=nCzW90-0pbMAX8EOh-6&_nc_ht=scontent.fsgn5-3.fna&oh=00_AfC-1Ff5hj9UBe8ELsJqLRwLs9wim63-UdhSU19o9lJw9Q&oe=6404FF51"
+                src="https://scontent.fsgn3-1.fna.fbcdn.net/v/t39.30808-6/325424260_569981544672478_8142361025772127812_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=gCnuAPHZxDYAX_7jlHF&_nc_ht=scontent.fsgn3-1.fna&oh=00_AfA49kmrORJvd_TxgavVNHKmWTQSDO-_T40G4uu8iCcyTQ&oe=640EE291"
                 alt=""
               />
               <span>{currentUser?.username}</span>
