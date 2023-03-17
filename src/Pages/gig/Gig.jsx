@@ -1,4 +1,9 @@
-import { faCheck, faClock, faRecycle, faStar } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCheck,
+  faClock,
+  faRecycle,
+  faStar,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Slider } from "infinite-react-carousel/lib";
 import React from "react";
@@ -279,19 +284,19 @@ const Gig = () => {
 
           <div className="features">
             <div className="item">
-              <FontAwesomeIcon icon={faCheck}/>
+              <FontAwesomeIcon icon={faCheck} />
               <span>Prompt writing</span>
             </div>
             <div className="item">
-              <FontAwesomeIcon icon={faCheck}/>
+              <FontAwesomeIcon icon={faCheck} />
               <span>Artwork delivery</span>
             </div>
             <div className="item">
-              <FontAwesomeIcon icon={faCheck}/>
+              <FontAwesomeIcon icon={faCheck} />
               <span>Image Upscalling</span>
             </div>
             <div className="item">
-              <FontAwesomeIcon icon={faCheck}/>
+              <FontAwesomeIcon icon={faCheck} />
               <span>Additional Design </span>
             </div>
           </div>

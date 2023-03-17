@@ -8,7 +8,7 @@ const Navbar = () => {
   const [active, setActive] = useState(false);
   const [open, setOpen] = useState(false);
 
-  const {pathname} = useLocation(); 
+  const { pathname } = useLocation();
 
   const isActive = () => {
     window.scrollY > 0 ? setActive(true) : setActive(false);
@@ -28,7 +28,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={active || pathname !=="/" ? "navbar active" : "navbar"}>
+    <div className={active || pathname !== "/" ? "navbar active" : "navbar"}>
       <div className="container">
         <div className="logo">
           <Link to="/" className="link">
@@ -69,8 +69,8 @@ const Navbar = () => {
                     Messages
                   </Link>
                   <Link className="link" to="">
-                    Logout  
-                  </Link> 
+                    Logout
+                  </Link>
                 </div>
               )}
             </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
       </div>
       <p>
-        {(active || pathname !=="/") && (
+        {(active || pathname !== "/") && (
           <>
             <hr />
             <div className="menu">
@@ -107,6 +107,7 @@ const Navbar = () => {
                 Lifestyle
               </Link>
             </div>
+            <hr />
           </>
         )}
       </p>
